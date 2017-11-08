@@ -1,0 +1,24 @@
+{
+  "name": "karma-graphql-preprocessor",
+  "version": "1.0.0",
+  "description": "A Karma plugin. Convert GraphQL files into valid queries. ",
+  "main": "lib/index.js",
+  "author": "Martin Zadražil",
+  "license": "MIT",
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:claryaldringen/karma-graphql-preprocessor.git"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "nyc": "^11.3.0"
+  },
+  "dependencies": {
+    "graphql": "^0.11.7",
+    "graphql-tag": "^2.5.0"
+  }
+}
