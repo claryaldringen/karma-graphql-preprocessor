@@ -6,7 +6,7 @@
   "author": "Martin Zadražil",
   "license": "MIT",
   "scripts": {
-    "test": "nyc mocha"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -14,8 +14,7 @@
   },
   "devDependencies": {
     "chai": "^4.1.2",
-    "mocha": "^4.0.1",
-    "nyc": "^11.3.0"
+    "mocha": "^4.0.1"
   },
   "dependencies": {
     "graphql": "^0.11.7",
